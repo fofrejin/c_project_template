@@ -1,0 +1,36 @@
+---
+# clang-format version 18.0.0
+Language: Cpp
+DisableFormat: false
+SortIncludes: false
+IndentWidth: 4
+ContinuationIndentWidth: 4
+ColumnLimit: 120
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterControlStatement: Never
+  AfterEnum: true
+  SplitEmptyFunction: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeElse: false
+  SplitEmptyRecord: false
+AllowShortIfStatementsOnASingleLine: false
+PointerAlignment: Middle
+SpaceAfterCStyleCast: false
+IndentPPDirectives: None
+AlignEscapedNewlines: Left
+AlignConsecutiveMacros: true
+AlignTrailingComments: true
+ReflowComments:  true
+SpacesBeforeTrailingComments: 1
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortLoopsOnASingleLine: false
+BreakBeforeBinaryOperators: false
+BreakStringLiterals: true
+IndentCaseLabels: true
+DeriveLineEnding: false
+UseCRLF: false
+UseTab: Never
