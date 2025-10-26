@@ -1,5 +1,5 @@
-#include <stdio.h>
+#include "log_common.h"
 
 int main() {
-    printf("C project template\n");
+    LOG_INFO("C project template");
 }

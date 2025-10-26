@@ -21,7 +21,7 @@ OBJ_DIR = $(BUILD_DIR)/obj
 SRCS_DIR = src
 SRCS += $(SRCS_DIR)/main.c
 # Include directories
-INC_DIRS += 
+INC_DIRS += src
 CFLAGS += $(addprefix -I,$(INC_DIRS))
 # Object files
 OBJS = $(patsubst $(SRCS_DIR)/%.c,$(OBJ_DIR)/%.o,$(SRCS))
