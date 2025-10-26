@@ -59,10 +59,10 @@ clean:
 	rm -rf $(BUILD_DIR)
 
 format:
-	find ./src -iname *.[hc] -exec clang-format-18 -i {} \;
+	find ./src -iname '*.[hc]' | xargs clang-format -i
 
 format_dry_run:
-	find ./src -iname *.[hc] -exec clang-format-18 -i --dry-run -Werror {} \;
+	find ./src -iname '*.[hc]' | xargs clang-format -i --dry-run -Werror
 
 # Phony targets
 .PHONY: all clean format format_dry_run
